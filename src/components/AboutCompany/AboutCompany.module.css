@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 150px;
+}
+.contactsContainer{
+    display: flex;
+    width:33%;
+    align-items: center;
+    justify-content: center;
+}
+.locateContainer{
+    display: flex;
+    width:33%;
+    align-items: center;
+    justify-content: center;
+}
+.logoContainer{
+    display: flex;
+    width:33%;
+    align-items: center;
+    justify-content: center;
+}
