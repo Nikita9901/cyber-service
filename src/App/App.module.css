@@ -1,0 +1,29 @@
+.app{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    height: max-content;
+}
+.background{
+    width: 100vw;
+    object-position: center;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.backgroundMob{
+    width: 100vw;
+    object-position: center;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    display: none;
+}
+@media (max-width: 750px){
+    .background{
+        display: none;
+    }
+    .backgroundMob{
+        display: unset;
+    }
+}

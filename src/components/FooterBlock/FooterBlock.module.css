@@ -1,0 +1,119 @@
+.container{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    padding-top: 12vw;
+    flex-direction: column;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    color: #E4E4E4;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.3vw;
+    margin-bottom: 2.3vw;
+}
+.address{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 1.6vw;
+}
+.icon{
+    width: 2.5vw;
+    min-width: 40px;
+    margin-right: 1vw;
+}
+.contacts{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phoneNumber{
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 2vw;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.025em;
+}
+.text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 1.5vw;
+}
+.insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2.1vw;
+    line-height: 2.3vw;
+    letter-spacing: -0.025em;
+    color: #E4E4E4;
+}
+
+@media (max-width: 1300px) {
+    .container{
+        padding-top: 5vw;
+    }
+}
+@media (max-width: 750px) {
+    .container{
+        padding-top: 20vw;
+        flex-direction: column;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .address{
+        margin: 20px 0;
+        font-size: 3vw;
+    }
+    .phoneNumber{
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+    .text{
+        font-size: 3.2vw;
+        line-height: 4vw;
+    }
+    .icon{
+        min-width: unset;
+        width: 6vw;
+    }
+    .contacts{
+        margin: 15px 0;
+    }
+    .insta{
+        font-size: 5vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .insta a{
+        margin-bottom: 1vw;
+    }
+}
+/*@media (max-width: 1000px) {*/
+/*    .container{*/
+/*        padding-top: 0;*/
+/*    }*/
+/*}*/

@@ -1,0 +1,198 @@
+.container{
+    /*background: linear-gradient(294.61deg, #2E0303 0.25%, #380505 25.53%, #550606 50.8%, #380505 76.07%, #2E0303 101.35%);    width: 100vw;*/
+    flex-direction: column;
+}
+.header{
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E4E4E4;
+}
+.text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 24px;
+
+}
+.address{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 24px;
+}
+.icon{
+    width: 2.5vw;
+    min-width: 40px;
+    margin-right: 1vw;
+}
+.contacts{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phoneNumber{
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 38px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.025em;
+}
+.phoneImage{
+    width: 38vw;
+}
+.aboutBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3vw;
+}
+.textAbout{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.headerAbout{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+    display: flex;
+    letter-spacing: -0.025em;
+    color: #E4E4E4;
+    margin-bottom: 1.5vw;
+}
+.placeAbout{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 1.7vw;
+    display: flex;
+    letter-spacing: -0.025em;
+    color: #E4E4E4;
+    margin-bottom: 3vw;
+}
+.scheduleAbout{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 1.7vw;
+    display: flex;
+    letter-spacing: -0.025em;
+    color: #E4E4E4;
+    margin-bottom: 1.8vw;
+}
+.buttonCall{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.025em;
+    background-color: #E4E4E4;
+    width: 100%;
+    height: 5.5vw;
+    color: #000000;
+    border-radius: 100px;
+    margin-bottom: 11px;
+    transition: all .3s;
+}
+.buttonBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.buttonCall:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.recall{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 26px;
+    display: flex;
+    letter-spacing: -0.025em;
+    color: #E4E4E4;
+    margin-bottom: 40px;
+}
+@media (max-width: 1200px) {
+    .phoneImage{
+        width: 32vw;
+    }
+}
+@media (max-width: 750px) {
+    .phoneImage{
+        width: 90vw;
+    }
+    .contacts{
+        display: none;
+    }
+    .address{
+        display: none;
+    }
+    .aboutBlock{
+        flex-direction: column;
+    }
+    .headerAbout{
+        text-align: center;
+        font-size: 5vw;
+        line-height: 7vw;
+    }
+    .header{
+        height: 30vw;
+    }
+    .placeAbout{
+        display: none;
+    }
+    .scheduleAbout{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        margin-top: 2vw;
+    }
+    .buttonBlock{
+        margin-top: 10vw;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .buttonCall{
+        height: 10vw;
+        font-size: 3vw;
+    }
+    .textAbout{
+        justify-content: center;
+        align-items: center;
+    }
+    .recall{
+        font-size: 2vw;
+        margin-bottom: 15vw;
+    }
+    .container{
+        min-height: 215vw;
+    }
+}

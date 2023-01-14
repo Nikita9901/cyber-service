@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    flex:1.5;
+}
+.name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5vw;
+    line-height: 5.5vw;
+    letter-spacing: -0.065em;
+    color: white;
+}
+.fix{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
+    letter-spacing: -0.095em;
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 4px;
+    background-color: #E4E4E4;
+    margin-top: -1vw;
+}
+@media (max-width: 750px) {
+    .name{
+        font-size: 6vw;
+        line-height: 8vw;
+    }
+    .fix{
+        font-size: 2.8vw;
+        line-height: 3vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        padding-bottom: 1vw;
+    }
+}
