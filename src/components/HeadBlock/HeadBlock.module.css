@@ -1,6 +1,9 @@
 .container{
-    /*background: linear-gradient(294.61deg, #2E0303 0.25%, #380505 25.53%, #550606 50.8%, #380505 76.07%, #2E0303 101.35%);    width: 100vw;*/
+    background: linear-gradient(294.61deg, #2E0303 0.25%, #380505 25.53%, #550606 50.8%, #380505 76.07%, #2E0303 101.35%);
+    width: 100vw;
     flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
 }
 .header{
     height: 130px;
@@ -53,7 +56,7 @@
     letter-spacing: -0.025em;
 }
 .phoneImage{
-    width: 38vw;
+    width: 35%;
 }
 .aboutBlock{
     display: flex;
@@ -162,6 +165,7 @@
         line-height: 7vw;
     }
     .header{
+        width: 95%;
         height: 30vw;
     }
     .placeAbout{

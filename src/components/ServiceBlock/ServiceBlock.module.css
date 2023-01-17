@@ -6,6 +6,9 @@
     justify-content: center;
     position: relative;
     min-height: 113vw;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    width: 100vw;
 }
 .header{
     font-weight: 700;

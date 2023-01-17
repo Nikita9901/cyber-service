@@ -6,6 +6,7 @@
     position: relative;
     padding-top: 12vw;
     flex-direction: column;
+    font-family: 'Lato', sans-serif;
 }
 .about{
     display: flex;

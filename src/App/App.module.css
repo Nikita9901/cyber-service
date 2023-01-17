@@ -1,8 +1,9 @@
 .app{
     display: flex;
-    width: 100vw;
+    width: 97vw;
     flex-direction: column;
     height: max-content;
+    background: linear-gradient(294.61deg, #2E0303 0.25%, #380505 25.53%, #550606 50.8%, #380505 76.07%, #2E0303 101.35%);
 }
 .background{
     width: 100vw;
@@ -18,6 +19,14 @@
     position: absolute;
     z-index: -1;
     display: none;
+}
+.transition{
+    width: 100vw;
+    height: 80px;
+
+    background:
+            linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%),
+            linear-gradient(90deg, #330404 0%, #330404 3.57%, #350505 7.99%, #370505 12.68%, #370505 16.73%, #380505 20.65%, #3A0505 24.61%, #3E0606 29.6%, #420606 34.51%, #470606 40.37%, #4B0606 45.75%, #500606 52.25%, #550606 59.02%, #510606 65.73%, #4C0606 71.72%, #470606 77.36%, #440505 81.8%, #410505 85.59%, #3E0505 89.37%, #3A0505 93.94%, #380505 100%);
 }
 @media (max-width: 750px){
     .background{
